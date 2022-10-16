@@ -10,9 +10,8 @@ sudo apt-get install gitk git-gui
 ```
 ## Clone ArduPilot repository
 ```
-git clone https://github.com/your-github-userid/ardupilot
+git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
-git submodule update --init --recursive
 ```
 ## Install required packages
 ```
