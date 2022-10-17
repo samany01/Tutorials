@@ -1,5 +1,5 @@
 # How to setup Ardupilot-Sitl, Mavproxy & Missionplanner on Ubuntu(20.04)
-## Setting up Ardupilot-Sitl
+## Setting up Ardupilot-Sitl and Mavproxy
 ## Install git
 ```
 sudo apt-get update
@@ -14,7 +14,7 @@ git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
 git submodule update --init --recursive
 ```
-## Install required packages
+## Install required packages (Mavproxy and other required packages)
 ```
 cd ardupilot
 Tools/environment_install/install-prereqs-ubuntu.sh -y
