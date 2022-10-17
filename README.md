@@ -12,6 +12,7 @@ sudo apt-get install gitk git-gui
 ```
 git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
+git submodule update --init --recursive
 ```
 ## Install required packages
 ```
@@ -22,7 +23,8 @@ Tools/environment_install/install-prereqs-ubuntu.sh -y
 log out and log in or restart 
 ## Adding the path
 ```
+gedit ~/.bachrc   (open bachrc file and add these two lines at the end)
 export PATH=$PATH:$HOME/ardupilot/Tools/autotest
 export PATH=/usr/lib/ccache:$PATH
-. ~/.bashrc
+. ~/.bashrc      
 ```
