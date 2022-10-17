@@ -37,8 +37,8 @@ echo "deb https://download.mono-project.com/repo/ubuntu stable-focal main" | sud
 sudo apt update
 sudo apt install mono-devel
 ```
-### download Mission planner zip file \
-https://firmware.ardupilot.org/Tools/MissionPlanner/archive/MissionPlanner-1.3.74.zip\
+### download Mission planner zip file 
+https://firmware.ardupilot.org/Tools/MissionPlanner/archive/MissionPlanner-1.3.74.zip /
 unzip the file and run this in mp directory
 ```
 mono MissionPlanner.exe
